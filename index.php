@@ -9,7 +9,7 @@
 	 <button class="button button-green" ng-click="resetPassword()">Submit</button>
 	 <button class="button button-green" ng-click="resetPassword()">Submit</button>  
 	
-   <h2>2.led
+   <h2>2.led</h2>
    
 	  <button class="button button-green" ng-click="resetPassword()">Submit</button>
 	  
