@@ -8,8 +8,8 @@
 	</head>
 	<body>
 	<?php
-	include 'http://muhammetcelepci.com/giris3/giris.php';
-		echo "tamam";
+	include 'http://www.muhammetcelepci.com/giris3/giris.php';
+		echo "tamam222222222";
 	?>
   <h2>1.LED</h2>
 	 <button class="button button-green" ng-click="resetPassword()">On</button>
