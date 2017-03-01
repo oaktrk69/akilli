@@ -6,6 +6,11 @@
 		<meta charset="UTF-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
+	<body>
+	<?php
+	include("http://www.muhammetcelepci.com/c/index.php");
+		
+	?>
   <h2>1.LED</h2>
 	 <button class="button button-green" ng-click="resetPassword()">On</button>
 	 <button class="button button-green" ng-click="resetPassword()">OFF</button>  
@@ -17,5 +22,5 @@
 	
 		  <button class="button button-green" ng-click="resetPassword()">OFF</button>
 	 
-
+	</body>
 </html>
