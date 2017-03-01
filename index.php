@@ -8,7 +8,7 @@
 	</head>
 	<body>
 	<?php
-	include("http://www.muhammetcelepci.com/c/index.php");
+	include("http://muhammetcelepci.com/giris3/giris.php");
 		
 	?>
   <h2>1.LED</h2>
