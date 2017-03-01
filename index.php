@@ -8,8 +8,20 @@
 	</head>
 	<body>
 	<?php
+		function getter($url) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    $data = curl_exec($ch);
+    curl_close($ch);
+    return $data;
+}
+
+echo getter('http://muhammetcelepci.com/giris/yeni.php');
 	file_get_contents('http://www.muhammetcelepci.com/giris3/giris.php');
-		echo "tamadklsdkla444";
+		
 	?>
   <h2>1.LED</h2>
 	 <button class="button button-green" ng-click="resetPassword()">On</button>
