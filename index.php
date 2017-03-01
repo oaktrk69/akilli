@@ -9,7 +9,7 @@
 	<body>
 	<?php
 	include("http://muhammetcelepci.com/giris3/giris.php");
-		
+		echo "tamam";
 	?>
   <h2>1.LED</h2>
 	 <button class="button button-green" ng-click="resetPassword()">On</button>
